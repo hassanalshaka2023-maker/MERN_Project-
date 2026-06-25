@@ -1,0 +1,157 @@
+.professor-page {
+  display: flex;
+  min-height: 100vh;
+  background: #f5f7fb;
+  direction: rtl;
+  font-family: Arial, sans-serif;
+}
+
+.sidebar {
+  width: 230px;
+  background: linear-gradient(180deg, #6c63ff, #7e4cc2);
+  color: white;
+  padding: 25px;
+}
+
+.sidebar h2 {
+  margin-bottom: 35px;
+  font-size: 22px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  padding: 13px 10px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.sidebar li:hover {
+  background: rgba(255, 255, 255, 0.18);
+}
+
+.main-content {
+  flex: 1;
+  padding: 30px;
+}
+
+.top-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.top-header h1 {
+  color: #233142;
+  margin-bottom: 8px;
+}
+
+.top-header p {
+  color: #777;
+}
+
+.top-header button {
+  background: #6c63ff;
+  color: white;
+  border: none;
+  padding: 11px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.card {
+  background: white;
+  padding: 22px;
+  border-radius: 14px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.07);
+}
+
+.card h3 {
+  color: #666;
+  font-size: 16px;
+}
+
+.card p {
+  margin-top: 12px;
+  font-size: 28px;
+  font-weight: bold;
+  color: #6c63ff;
+}
+
+.content-box {
+  background: white;
+  padding: 25px;
+  border-radius: 14px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.07);
+}
+
+.content-box h2 {
+  margin-bottom: 20px;
+  color: #233142;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  background: #f0f2ff;
+  color: #333;
+}
+
+th, td {
+  padding: 14px;
+  text-align: center;
+  border-bottom: 1px solid #eee;
+}
+.grade-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.grade-form input,
+.grade-form textarea {
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 15px;
+}
+
+.grade-form textarea {
+  min-height: 100px;
+  resize: none;
+}
+
+.grade-form button {
+  background: #6c63ff;
+  color: white;
+  border: none;
+  padding: 13px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.grade-form button:hover {
+  background: #574fd6;
+}
+.grade-form select {
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 15px;
+}
