@@ -1,3 +1,95 @@
+# IDEA Training Center - Institute Management System
+
+## Overview
+
+IDEA Training Center is a comprehensive institute management system built with React, TypeScript, and Tailwind CSS. The application provides role-based dashboards for three user types: **Students**, **Professors**, and **Managers**, each with specific functionalities tailored to their needs.
+
+## Features
+
+### 🔐 Authentication
+- Secure login with JWT token-based authentication
+- Role-based redirection (Student, Professor, Manager)
+- Persistent session management using localStorage
+
+### 👨‍🎓 Student Dashboard
+- View enrolled courses and academic records
+- Track attendance status
+- View grades and grade notes
+- View course results (Passed/Pending)
+- Register for new courses
+- View pending/rejected registration requests
+- Average grade calculation
+- Success metrics visualization
+
+### 👨‍🏫 Professor Dashboard
+- View assigned courses
+- Manage student enrollments
+- Add grades and grade notes
+- Track student attendance
+- View overall course statistics:
+  - Total courses
+  - Total students
+  - Average grade
+  - Success rate
+
+### 👔 Manager Dashboard
+- Complete institute oversight
+- Create new users (Students/Professors)
+- Create and manage courses
+- Approve or reject student enrollment requests
+- View institute-wide analytics:
+  - Total students
+  - Total professors
+  - Total courses
+  - Total enrollments
+  - Institute success rate
+- Edit and delete courses
+- Edit and delete users
+
+## Technology Stack
+
+- **Frontend**: React 18 with TypeScript
+- **Routing**: React Router v6
+- **Styling**: Tailwind CSS with custom components
+- **Animations**: Framer Motion
+- **State Management**: React Hooks (useState, useEffect)
+- **HTTP Client**: Native Fetch API
+- **Build Tool**: Vite
+
+## Prerequisites
+
+- Node.js (v14 or higher)
+- npm or yarn
+- Backend API server running on `http://localhost:3000`
+
+## Installation
+
+1. **Clone the repository**
+```bash
+git clone <repository-url>
+cd idea-training-center
+
+2. Install dependencies
+
+npm install
+# or
+yarn install
+
+3.Environment Configuration
+
+No environment variables are required for the frontend
+
+Ensure backend API is running on http://localhost:3000
+
+4.Start the development server
+npm run dev
+# or
+yarn dev
+5.Build for production
+
+npm run build
+# or
+yarn build
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
